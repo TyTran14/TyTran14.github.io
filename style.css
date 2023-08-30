@@ -3,59 +3,97 @@ ody {
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: arial;
-    }
-    #all-contents {
+}
+
+#all-contents {
     max-width: 800px;
     margin: auto;
-    }
-    /* navigation menu */
-    nav {
+}
+
+/* navigation menu */
+nav {
     background: rgb(0, 0, 0);
     margin: 0 auto;
     margin-bottom: 20px;
     display: flex;
     padding: 10px;
-    }
-    h1 {
+}
+
+h1 {
     display: flex;
     align-items: center;
     color: rgb(255, 255, 255);
     flex: 1;
     margin: 0;
-    }
-    #nav-ul {
+}
+
+#nav-ul {
     list-style-image: none;
-    }
-    .nav-li{
+}
+
+.nav-li {
     display: inline-block;
     padding: 0 10px;
-    }
-    a{
+}
+
+a {
     text-decoration: none;
     color: #d61515;
-    }
-    /* main container area beneath menu */
-    main {
+}
+
+/* main container area beneath menu */
+main {
     background: rgb(255, 255, 255);
     display: flex;
-    }
-    .sidebar{
+}
+
+.sidebar {
     margin-right: 25px;
     padding: 10px;
-    }
-    .sidebar-img{
+}
+
+.sidebar-img {
     width: 200px;
-    }
-    content{
+}
+
+content {
     flex: 1;
     padding: 15px;
-    }
-    /* portfolio styles */
-    #interests{
-    border: 4px silver ridge;
+}
+
+/* portfolio styles */
+#interests {
+    border: 4px rgb(255, 255, 255) ridge;
     padding: 8px;
-    }
-    h2,h3{
+}
+
+h2,
+h3 {
     margin: 0px;
-    }
-    
+}
+
+/* portfolio styles */
+.content h1 {
+    color: black;
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #9c3939;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #454545;
+}
