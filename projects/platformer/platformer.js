@@ -58,9 +58,9 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
    
     createCollectable("steve", 600, 170, 6, 0.7);
-    createCollectable("steve", 200, 170, 6, 0.7);
-    createCollectable("steve", 200, 170, 6, 0.7);
-
+    createCollectable("steve", 500, 300, 6, 0.7);
+    createCollectable("steve", 400, 500, 6, 0.7);
+    createCollectable("database", 150, 700, 6, 0.7);
 
     // TODO 3
     // Create cannons
@@ -69,7 +69,8 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
 
     createCannon("right",200,1000)
-
+    createCannon("bottom", 400, 1000)
+    createCannon("bottom", 800, 1000)
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
